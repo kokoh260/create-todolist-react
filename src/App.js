@@ -3,54 +3,54 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <div class="container">
-    <div class="frame">
-      <section class="header">
-        <button class="header-btn">TAMBAH</button>
-        <h1 class="header-title">Catatan Kerja</h1>
-        <button class="header-btn main-red-color">HAPUS</button>
-      </section>
+    <div className="container">
+      <div className="frame">
+        <section className="header">
+          <button className="header-btn">TAMBAH</button>
+          <h1 className="header-title">Catatan Kerja</h1>
+          <button className="header-btn main-red-color">HAPUS</button>
+        </section>
 
-      <section class="add">
-        <form class="add-form">
-          <input type="text" class="add-input" />
-          <button class="add-btn main-black-color">TAMBAH</button>
-        </form>
-      </section>
+        <section className="add">
+          <form className="add-form">
+            <input type="text" className="add-input" />
+            <button className="add-btn main-black-color">TAMBAH</button>
+          </form>
+        </section>
 
-      <section class="todos">
-        <div class="todo">
-          <span class="todo-text">Belajar react</span>
-        </div>
-        <div class="todo">
-          <span class="todo-text">Belajar react</span>
-        </div>
-        <div class="todo">
-          <span class="todo-text">Belajar react</span>
-        </div>
-        <div class="todo">
-          <span class="todo-text">Belajar react</span>
-        </div>
-        <div class="todo">
-          <span class="todo-text">Belajar react</span>
-        </div>
-        <div class="todo">
-          <span class="todo-text">Belajar react</span>
-        </div>
-        <div class="todo">
-          <span class="todo-text">Belajar react</span>
-        </div>
-        <div class="todo">
-          <span class="todo-text">Belajar react</span>
-        </div>
-        <div class="todo">
-          <span class="todo-text">Belajar react</span>
-        </div>
-        <div class="todo">
-          <span class="todo-text">Belajar react</span>
-        </div>
-      </section>
+        <section className="todos">
+          <div className="todo">
+            <span className="todo-text">Belajar react</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">Belajar react</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">Belajar react</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">Belajar react</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">Belajar react</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">Belajar react</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">Belajar react</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">Belajar react</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">Belajar react</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">Belajar react</span>
+          </div>
+        </section>
+      </div>
     </div>
-  </div>
   );
 }
